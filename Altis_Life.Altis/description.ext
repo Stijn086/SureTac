@@ -1,8 +1,5 @@
-author = "Tonic";
-dev = "SureTac Development Team";
+author = "SureTac Development Team";
 loadScreen = "textures\armalife.jpg";
-onLoadName = "Altis Life RPG v4.4";
-onLoadMission = "Edited by SureTac Development Team";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
