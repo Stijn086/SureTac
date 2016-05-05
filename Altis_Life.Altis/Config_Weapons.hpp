@@ -383,13 +383,6 @@ class WeaponShops {
 			{ "10Rnd_9.3x64_DMR_05_Mag", "", 500, 0 }
 		};
 	};
-		};
-		mags[] = {
-			{ "9Rnd_45ACP_Mag", "", 200 },
-			{ "30Rnd_9x21_Mag", "", 60 },
-			{ "30Rnd_65x39_caseless_mag", "", 100, -1 }
-		};
-	};
 
 	class cop_SWAT {
 		name = "Altis SWAT Shop";
