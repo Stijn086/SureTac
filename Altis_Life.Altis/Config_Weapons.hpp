@@ -247,7 +247,7 @@ class WeaponShops {
 			{ "HandGrenade_Stone", "Flashbang", 1700, 0 },
 			{ "optic_Arco", "", 2500, 0 },
 			{ "muzzle_snds_H", "", 2750, 0 },
-			{ "muzzle_snds_L", "", 2750, 0 }
+			{ "muzzle_snds_L", "", 2750, 0 },
 			{ "optic_Arco", "", 2500, 0 },
 			{ "optic_Hamr", "", 15000, 0 },
 			{ "optic_Arco_grn", "", 15000, 0 },
