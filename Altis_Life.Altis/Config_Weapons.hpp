@@ -272,8 +272,8 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_mag_Tracer", "", 100, 0 },
 			{ "100Rnd_65x39_caseless_mag", "", 100, 0 },
 			{ "100Rnd_65x39_caseless_mag_Tracer", "", 100, 0 },
-			{ "20Rnd_762x51_Mag", "", 500, 0 },
-			{ "10Rnd_9.3x64_DMR_05_Mag", "", 500, 0 }
+			{ "20Rnd_762x51_Mag", "", 500, 0},
+			{ "10Rnd_9.3x64_DMR_05_Mag", "", 500, 0}
 		};
 	};
 
