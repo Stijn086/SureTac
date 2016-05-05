@@ -29,7 +29,8 @@ corpseRemovalMaxTime = 9999;
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
 
-class RscTitles {
+class RscTitles 
+{
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.hpp"
 	#include "dialog\hud_stats.hpp"
