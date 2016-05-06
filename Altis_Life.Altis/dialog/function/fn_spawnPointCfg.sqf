@@ -45,7 +45,7 @@ switch (_side) do
 	    };			
 	
 	    if(__GETC__(life_donator) > 0) then {  
-	        _return = _ret + [			
+	        _return = _ret + [	
 			    ["donor_pyrgos","Donor Camp","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],			
 			    ["donor_airport","Donor Airport","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],			
 		    	["donor_airfield","Donor Airfield","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]		
