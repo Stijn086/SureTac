@@ -11361,7 +11361,7 @@ class Mission
 		};
 		class Item218
 		{
-			position[]={9192.8691,14.425898,21672.582};
+			position[]={9184.1758,14.40232,21663.307};
 			name="reb_spawn_1";
 			type="Empty";
 		};
