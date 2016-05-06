@@ -31,7 +31,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Kart_01_Blu_F", 15000 , { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Fuel_F", 15000, { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_FuelFuel_F", 15000, { "driver" }, { "", "", -1 } },
             { "C_Kart_01_Red_F", 15000, { "driver" }, { "", "", -1 } },
             { "C_Kart_01_Vrana_F", 15000, { "driver" }, { "", "", -1 } }
         };
@@ -65,6 +65,7 @@ class CarShops {
             { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
             { "B_Truck_01_box_F", 350000, { "trucking" }, { "", "", -1 } },
+			{ "C_Van_01_fuel__white_F", 30000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_device_F", 450000, { "trucking" }, { "", "", -1 } }
         };
     };
@@ -643,6 +644,21 @@ class LifeCfgVehicles {
 			{ "Police", "cop",{
 				"\textures\Cop\car\Police_SUV_1.png"
 			} },
+			{ "Farrari", "civ",{
+				"\textures\Civ\car\TRG_hobos_ferrari_SUV.jpg"
+			} },
+			{ "Red Gull", "Civ",{
+				"\textures\Civ\car\TRG_hobos_rudgull_rally.jpg"
+			} },
+			{ "Pimp", "civ",{
+				"\textures\Civ\car\pimp.jpg"
+			} },
+			{ "KB Monster", "Civ",{
+				"\textures\Civ\car\TRG_hobos_KB_hatch.jpg"
+			} },
+			{ "Blue Flame", "Civ",{
+				"\textures\Civ\car\flames.jpg"
+			} },
         };
     };
 
@@ -674,6 +690,25 @@ class LifeCfgVehicles {
             } },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } }
+        };
+    };
+	
+    class C_Van_01_fuel__white_F {
+		vItemSpace = 150;
+		storageFee[] = { 1000, 0, 0, 0 };
+		garageSell[] = { 10000, 0, 0, 0 };
+		insurance = 2500;
+		chopShop = 25000;
+		textures[] = {
+			{ "BP", "civ", {
+                "\texture\civ\car\van_01_tank_bp_co.paa"
+            } },
+			{ "Shell", "civ", {
+                "\texture\civ\car\van_01_tank_shell_co.paa"
+            } },
+			{ "Fuel", "civ", {
+                "\texture\civ\car\van_01_tanks_fuel_co.paa"
             } }
         };
     };
@@ -740,6 +775,9 @@ class LifeCfgVehicles {
             } },
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
+            } },
+			{ "Orange Hex", "reb", {
+                "\textures\Civ\heli\heli_yellow_hex.png"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
