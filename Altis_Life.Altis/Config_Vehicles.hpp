@@ -642,7 +642,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
 			{ "Police", "cop",{
-				"\textures\Cop\car\Police_SUV_1.png"
+				"\textures\Cop\car\Police_SUV_1.jpg"
 			} },
 			{ "Farrari", "civ",{
 				"\textures\Civ\car\TRG_hobos_ferrari_SUV.jpg"
