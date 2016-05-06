@@ -26,24 +26,35 @@ switch (_side) do
 	};
 	
 	case civilian:
-	{
-		_return = [
-			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-		];
-		
-		if(count life_houses > 0) then {
-			{
-				_pos = call compile format["%1",_x select 0];
-				_house = nearestBuilding _pos;
-				_houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
-				
-				_return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
-			} foreach life_houses;
-		};	
-	};
+    {
+    if (license_civ_rebel) then {
+        _return = [
+            ["reb_spawn_1","Rebel north","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["reb_spawn_2","Rebel South","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+		    ["reb_spawn_3","Rebel South East","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_4","Dorida","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_5","Gravia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_6","Negades","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+        }
+    else {
+        _return = [
+            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+            ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+        ];
+    };
+    if(count life_houses > 0) then {
+        {
+            _pos = call compile format["%1",_x select 0];
+            _house = nearestBuilding _pos;
+            _houseName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
+                
+            _return pushBack [format["house_%1",_house getVariable "uid"],_houseName,"\a3\ui_f\data\map\MapControl\lighthouse_ca.paa"];
+        } foreach life_houses;
+    };    
+};
 	
 	case independent: {
 		_return = [
