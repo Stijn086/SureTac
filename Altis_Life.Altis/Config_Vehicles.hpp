@@ -702,13 +702,13 @@ class LifeCfgVehicles {
 		chopShop = 25000;
 		textures[] = {
 			{ "BP", "civ", {
-                "\texture\civ\car\van_01_tank_bp_co.paa"
+                "texture\civ\car\van_01_tank_bp_co.paa"
             } },
 			{ "Shell", "civ", {
-                "\texture\civ\car\van_01_tank_shell_co.paa"
+                "texture\civ\car\van_01_tank_shell_co.paa"
             } },
 			{ "Fuel", "civ", {
-                "\texture\civ\car\van_01_tanks_fuel_co.paa"
+                "texture\civ\car\van_01_tanks_fuel_co.paa"
             } }
         };
     };
@@ -777,7 +777,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
 			{ "Orange Hex", "reb", {
-                "\textures\Civ\heli\heli_yellow_hex.png"
+                "textures\Civ\heli\heli_yellow_hex.png"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
