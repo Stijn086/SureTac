@@ -642,7 +642,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
 			{ "Police", "cop",{
-				"\textures\Cop\car\Police_SUV_1.jpg"
+				"textures\Cop\car\Police_SUV_1.jpg"
 			} },
 			{ "Farrari", "civ",{
 			    "textures\Civ\car\TRG_hobos_ferrari_SUV.jpg"
@@ -777,7 +777,7 @@ class LifeCfgVehicles {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
 			{ "Orange Hex", "reb", {
-                "textures\Civ\heli\heli_yellow_hex.png"
+                "textures\Civ\Heli\heli_yellow_hex.jpg"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
