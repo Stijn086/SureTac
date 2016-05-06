@@ -9593,7 +9593,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=218;
+		items=221;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11318,6 +11318,24 @@ class Mission
 			colorName="ColorWhite";
 			a=30;
 			b=30;
+		};
+		class Item218
+		{
+			position[]={9191.0898,14.439032,21668.18};
+			name="reb_spawn_1";
+			type="Empty";
+		};
+		class Item219
+		{
+			position[]={20079.166,100.9707,6738.6421};
+			name="reb_spawn_2";
+			type="Empty";
+		};
+		class Item220
+		{
+			position[]={26855.014,24.26687,24570.045};
+			name="reb_spawn_3";
+			type="Empty";
 		};
 	};
 };
