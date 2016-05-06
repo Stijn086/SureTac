@@ -645,20 +645,20 @@ class LifeCfgVehicles {
 				"\textures\Cop\car\Police_SUV_1.jpg"
 			} },
 			{ "Farrari", "civ",{
-				"\textures\Civ\car\TRG_hobos_ferrari_SUV.jpg"
+			    "\textures\Civ\car\TRG_hobos_ferrari_SUV.jpg"
 			} },
 			{ "Red Gull", "Civ",{
-				"\textures\Civ\car\TRG_hobos_rudgull_rally.jpg"
+			    "\textures\Civ\car\TRG_hobos_rudgull_rally.jpg"
 			} },
 			{ "Pimp", "civ",{
-				"\textures\Civ\car\pimp.jpg"
+			    "\textures\Civ\car\pimp.jpg"
 			} },
 			{ "KB Monster", "Civ",{
-				"\textures\Civ\car\TRG_hobos_KB_hatch.jpg"
+			    "\textures\Civ\car\TRG_hobos_KB_hatch.jpg"
 			} },
 			{ "Blue Flame", "Civ",{
-				"\textures\Civ\car\flames.jpg"
-			} },
+			    "\textures\Civ\car\flames.jpg"
+			} }
         };
     };
 
