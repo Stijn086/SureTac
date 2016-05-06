@@ -637,9 +637,12 @@ class LifeCfgVehicles {
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
-            { "Police", "cop", {
+            { "UC", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
+			{ "Police", "cop",{
+				"\textures\Cop\car\Police_SUV_1.png"
+			} },
         };
     };
 
