@@ -79,7 +79,7 @@ class CarShops {
 			{ "I_MRAP_03_F", 200000, { "" }, { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", 750000, { "rebel" }, { "", "", -1 } },
 			{ "B_Heli_Light_01_F", 325000, { "" }, { "", "", -1 } },
-			{ "O_Heli_Light_02_unarmed_F", 750000, { "" }, { "", "", -1 } }
+			{ "O_Heli_Light_02_unarmed_F", 750000, { "" }, { "", "", -1 } },
 			{ "B_Heli_Transport_01_F", 17000000, { "" }, { "", "", -1 } },
 			{ "B_Heli_Transport_03_unarmed_F", 1500000, { "" }, { "", "", -1 } }
         };
