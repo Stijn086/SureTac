@@ -42,20 +42,53 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 25000, 2500 },
-            { "arifle_Katiba_F", "", 30000, 5000 },
-            { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 },
-            { "optic_ACO_grn", "", 3500, 350 },
-            { "optic_Holosight", "", 3600, 275 },
-            { "optic_Hamr", "", 7500, -1 },
-            { "acc_flashlight", "", 1000, 100 }
+            { "hgun_ACPC2_F", "", 20000 },
+            { "hgun_Pistol_heavy_01_F", "", 25000 },
+            { "hgun_Pistol_heavy_02_F", "", 25000 },
+            { "SMG_02_F", "", 30000 },
+            { "SMG_01_F", "", 30000 },
+            { "arifle_TRG21_F", "", 40000 },
+            { "arifle_Katiba_F", "", 60000 },
+            { "arifle_Katiba_GL_F", "", 60000 },
+            { "arifle_Mk20_F", "", 50000 },
+            { "arifle_MX_F", "", 60000 },
+            { "srifle_GM6_F", "", 2000000 },
+            { "srifle_EBR_F", "", 700000 },
+            { "optic_Arco", "", 6000 },
+            { "optic_Aco", "", 5000 },
+            { "optic_MRCO", "", 25000 },
+            { "optic_DMS", "", 25000 },
+            { "optic_AMS", "", 60000 },
+            { "optic_SOS", "", 60000 },
+            { "muzzle_snds_L", "", 70000 },
+            { "muzzle_snds_M", "", 70000 },
+            { "muzzle_snds_H", "", 70000 },
+            { "muzzle_snds_B", "", 70000 },
+            { "bipod_01_F_blk", "", 60000 },
+            { "bipod_02_F_blk", "", 60000 },
+            { "bipod_03_F_blk", "", 60000 },
+            { "acc_flashlight", "", 4000 },
+            { "acc_pointer_IR", "", 6000 },
+            { "FirstAidKit", "", 500 },
+            { "ToolKit", "", 600 },
+            { "ItemGPS", "", 100 },
+            { "NVGoggles", "", 200 }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "20Rnd_762x51_Mag", "", 40000 },
+            { "9Rnd_45ACP_Mag", "", 2500 },
+            { "11Rnd_45ACP_Mag", "", 2500 },
+            { "6Rnd_45ACP_Cylinder", "", 2500 },
+            { "30Rnd_9x21_Mag", "", 5000 },
+            { "5Rnd_127x108_Mag", "", 75000 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 5000 },
+            { "30Rnd_556x45_Stanag", "", 5500 },
+            { "30Rnd_556x45_Stanag_Tracer_Red", "", 5000 },
+            { "30Rnd_65x39_caseless_green", "", 5000 },
+            { "30Rnd_556x45_Stanag", "", 5000 },
+            { "30Rnd_556x45_Stanag_Tracer_Red", "", 5000 },
+            { "30Rnd_65x39_caseless_mag", "", 5000 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 5000 }
         };
     };
 
