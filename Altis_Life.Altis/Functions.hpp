@@ -205,6 +205,7 @@ class Life_Client_Core
 		class nearATM {};
 		class playerSkins {};
 		class nearestObjects {};
+		class fatigueReset {};
 	};
 
 	class Network

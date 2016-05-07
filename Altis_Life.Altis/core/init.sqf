@@ -125,6 +125,8 @@ life_fnc_moveIn = compileFinal
 
 [] spawn life_fnc_survival;
 
+[] spawn life_fnc_fatigueReset;
+
 [] spawn {
 	while {true} do {
 		waitUntil{(!isNull (findDisplay 49)) && (!isNull (findDisplay 602))}; // Check if Inventory and ESC dialogs are open
@@ -141,3 +143,4 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"Pump_service"),1)) then{
 };
 
 [getPlayerUID player,player getVariable["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate",RSERV];
+
