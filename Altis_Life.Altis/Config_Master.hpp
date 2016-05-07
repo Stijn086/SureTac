@@ -6,7 +6,7 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = false; //Save food & water (all sides)?
     save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
@@ -20,7 +20,7 @@ class Life_Settings {
     cops_online_min = 5; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
@@ -36,23 +36,23 @@ class Life_Settings {
 
     /* Player-related systems */
     enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
-    total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
+    total_maxWeight = 68; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
     /* Impound Variables */
-    impound_car = 350; //Price for impounding cars
-    impound_boat = 250; //Price for impounding boats
-    impound_air = 850; //Price for impounding helicopters / planes
+    impound_car = 1250; //Price for impounding cars
+    impound_boat = 2500; //Price for impounding boats
+    impound_air = 5000; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 3000; //Amount of cash on bank for new civillians
-    bank_med = 6500; //Amount of cash on bank for new medics
+    bank_cop = 650000; //Amount of cash on bank for new cops
+    bank_civ = 650000; //Amount of cash on bank for new civillians
+    bank_med = 650000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_cop = 7500; //Payment for cops
+    paycheck_civ = 5000; //Payment for civillians
+    paycheck_med = 6000; //Payment for medics
 
     /* Federal Reserve settings */
     noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
