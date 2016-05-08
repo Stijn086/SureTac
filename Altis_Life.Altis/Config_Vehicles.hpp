@@ -79,8 +79,8 @@ class CarShops {
             { "B_G_Offroad_01_armed_F", 750000, { "rebel" }, { "", "", -1 } },
 			{ "B_Heli_Light_01_F", 325000, { "" }, { "", "", -1 } },
 			{ "O_Heli_Light_02_unarmed_F", 750000, { "" }, { "", "", -1 } },
-			{ "B_Heli_Transport_01_F", 17000000, { "" }, { "", "", -1 } },
-			{ "B_Heli_Transport_03_unarmed_F", 1500000, { "" }, { "", "", -1 } }
+			{ "B_Heli_Transport_01_F", 1850000, { "" }, { "", "", -1 } },
+			{ "B_Heli_Transport_03_unarmed_F", 1800000, { "" }, { "", "", -1 } }
         };
     };
 
@@ -709,6 +709,15 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+    };
+	
+	class B_Heli_Transport_03_unarmed_F {
+        vItemSpace = 300;
+        storageFee[] = { 25000, 0, 0, 0 };
+        garageSell[] = { 750000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 525000;
+        textures[] = {};
     };
 
     class B_Heli_Light_01_F {
