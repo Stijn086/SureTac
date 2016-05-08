@@ -65,7 +65,6 @@ class CarShops {
             { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
             { "B_Truck_01_box_F", 350000, { "trucking" }, { "", "", -1 } },
-			{ "C_Van_01_fuel__white_F", 30000, { "trucking" }, { "", "", -1 } },
             { "O_Truck_03_device_F", 450000, { "trucking" }, { "", "", -1 } }
         };
     };
@@ -370,7 +369,7 @@ class LifeCfgVehicles {
     };
 
     class B_Truck_01_box_F {
-        vItemSpace = 450;
+        vItemSpace = 1000;
         storageFee[] = { 35000, 0, 0, 0 };
         garageSell[] = { 150000, 0, 0, 0 };
         insurance = 2500;
@@ -694,25 +693,6 @@ class LifeCfgVehicles {
             } },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
-            } }
-        };
-    };
-	
-    class C_Van_01_fuel__white_F {
-		vItemSpace = 150;
-		storageFee[] = { 1000, 0, 0, 0 };
-		garageSell[] = { 10000, 0, 0, 0 };
-		insurance = 2500;
-		chopShop = 25000;
-		textures[] = {
-			{ "BP", "civ", {
-                "texture\civ\car\van_01_tank_bp_co.paa"
-            } },
-			{ "Shell", "civ", {
-                "texture\civ\car\van_01_tank_shell_co.paa"
-            } },
-			{ "Fuel", "civ", {
-                "texture\civ\car\van_01_tanks_fuel_co.paa"
             } }
         };
     };
