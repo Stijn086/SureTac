@@ -66,6 +66,12 @@ switch (true) do {
 	case (EQUAL(_item,"lockpick")): {
 		[] spawn life_fnc_lockpick;
 	};
+	
+	case (_item == "marijuana"): {
+        if(([false,_item,1] call life_fnc_handleInv)) then	{
+            [] spawn life_fnc_weed;
+		};
+    };
 
 	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtlesoup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
@@ -80,7 +86,7 @@ switch (true) do {
 			};
 		};
 	};
-
+	
 	case (EQUAL(_item,"pickaxe")): {
 		[] spawn life_fnc_pickAxeUse;
 	};

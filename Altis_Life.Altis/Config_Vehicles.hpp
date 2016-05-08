@@ -712,7 +712,7 @@ class LifeCfgVehicles {
     };
 	
 	class B_Heli_Transport_03_unarmed_F {
-        vItemSpace = 300;
+        vItemSpace = 1000;
         storageFee[] = { 25000, 0, 0, 0 };
         garageSell[] = { 750000, 0, 0, 0 };
         insurance = 2500;
