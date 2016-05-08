@@ -26,13 +26,15 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
             { "hgun_PDW2000_F", "", 20000, -1 },
+			{ "arfile_SDAR_F", "", 25000, -1 },
             { "optic_ACO_grn_smg", "", 2500, 250 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "30Rnd_9x21_Mag", "", 75 },
+			{ "20Rnd_556x45_UW_mag", "", 45 }
         };
     };
 
