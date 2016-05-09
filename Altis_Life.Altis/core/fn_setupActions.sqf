@@ -13,7 +13,7 @@ switch (playerSide) do {
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		// Suicide Bomb
-        life_actions = life_actions + [player addAction["<t color='#FF0000'>Detonate</t>",life_fnc_suicideBomb,"",0,false,false,"",
+        life_actions = life_actions + [player addAction["<t color='#FF0000'>Allahu Akbar</t>",life_fnc_suicideBomb,"",0,false,false,"",
         'vest player == "V_HarnessOGL_gry" && alive player && playerSide == civilian && !life_istazed && !life_isSuicide && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 	};
 };

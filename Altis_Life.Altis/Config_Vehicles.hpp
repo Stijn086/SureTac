@@ -730,7 +730,7 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
             } },
-            { "Sheriff", "civ", {
+            { "Sheriff", "cop", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
             } },
             { "Civ Blue", "civ", {
