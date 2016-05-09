@@ -25,11 +25,11 @@ A lot of this is just C&P with different code. It's kinda simple to add / remove
 
 
 
-#define POLICE_ZONES    [["pz_xx","pz_kav","pz_kav1","pz_kav2","pz_kav3","pz_hq","pz_at","pz_pr","pz_hp", 50]]
+#define POLICE_ZONES    [["pz_xx", 50], ["pz_kav", 50], ["pz_kav1", 50], ["pz_kav2", 50], ["pz_kav3", 50], ["pz_hq", 50], ["pz_at", 50], ["pz_pr", 50], ["pz_hp", 50]]
 
-#define CIV_ZONES    [["cz_xx","cz_kav","cz_reb","cz_reb1","cz_reb2","cz_hos","cz_hos1","cz_at","cz_pr", 50]]
+#define CIV_ZONES    [["cz_xx", 50], ["cz_kav", 50], ["cz_reb", 50], ["cz_reb1", 50], ["cz_reb2", 50], ["cz_hos", 50], ["cz_hos1", 50], ["cz_at", 50], ["cz_pr", 50]]
 
-#define KOS_ZONES    [["kos_xx","kos_fd", 50]]
+#define KOS_ZONES    [["kos_xx", 50], ["kos_fd", 50]]
 
 
 
